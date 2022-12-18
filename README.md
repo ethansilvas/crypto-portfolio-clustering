@@ -7,7 +7,25 @@ In this project I apply the unsupervised learning technique of K-Means clusterin
 
 ### Summary
 
+I start by using the elbow curve method, using normalized data, to find the optimal k value for the K-Means model that will use all of the original features of the dataset. 
 
+![Elbow curve line plot showing a value of 4 for k to be optimal for the dataset with all features](/Resources/Images/elbow_curve.png)
+
+Then, using the optimal k value I train and predict the K-Means model to generate 4 clusters of cryptocurrencies. The inertia of each cluster was significant enough to consider reducing the amount of features. 
+
+![A scatter plot showing 4 clusters with heavy inertia](/Resources/Images/all_features_scatter.png)
+
+To reduce the amount of features used, I applied Principal Component Analysis to create 3 primary clusters. 
+
+![DataFrame holding 3 primary clusters as columns and cryptocurrency as index](/Resources/Images/pca.png)
+
+I then used the PCA data to again calculate the optimal k value for the K-Means model. 
+
+![Elbow curve line plot from the PCA data that shows 4 to be the optimal k value](/Resources/Images/pca_elbow_curve.png)
+
+Finally, with the optimal k value for the PCA features, I plot the new clusters. 
+
+![Scatter plot showing 4 low inertia clusters generated using the PCA dataframe](/Resources/Images/pca_scatter.png)
 
 ---
 
