@@ -1,9 +1,9 @@
 # Module 10 Challenge - Clustering Cryptocurrencies 
 
+In this project I apply the unsupervised learning technique of K-Means clustering to group cryptocurrencies by their performance in an effort to create profitable portfolio recommendations.
 
 ### Data Used
-
-
+[crypto_market_data.csv](/Resources/crypto_market_data.csv) - market data of different cryptocurrencies during different time periods 
 
 ### Summary
 
@@ -30,7 +30,7 @@ The following dependencies are used:
 
 If you would like to run the program in JupyterLab, install the [Anaconda](https://www.anaconda.com/products/distribution) distribution and run `jupyter lab` in a conda dev environment.
 
-To ensure that your notebook runs properly you can use the [requirements.txt](/Resources/requirements.txt) file to create an exact copy of the conda dev environment used to create the notebook. 
+To ensure that your notebook runs properly you can use the [requirements.txt](/Resources/requirements.txt) file to create an exact copy of the conda dev environment used in development of this project. 
 
 Create a copy of the conda dev environment with `conda create --name myenv --file requirements.txt`
 
