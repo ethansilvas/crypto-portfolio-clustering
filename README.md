@@ -22,6 +22,7 @@ The following dependencies are used:
 4. [Matplotlib](https://github.com/matplotlib/matplotlib) (3.5.1) - Data visualization
 5. [Numpy](https://numpy.org/) (1.21.5) - Data calculations + Pandas support
 6. [hvPlot](https://hvplot.holoviz.org/index.html) (0.8.1) - Interactive Pandas plots 
+7. [scikit-learn](https://scikit-learn.org/stable/) (1.0.2) - KMeans clustering, data normalization, and PCA 
 
 ---
 
@@ -29,7 +30,7 @@ The following dependencies are used:
 
 If you would like to run the program in JupyterLab, install the [Anaconda](https://www.anaconda.com/products/distribution) distribution and run `jupyter lab` in a conda dev environment.
 
-To ensure that your notebook runs properly you can use the []() file to create an exact copy of the conda dev environment used to create the notebook. 
+To ensure that your notebook runs properly you can use the [requirements.txt](/Resources/requirements.txt) file to create an exact copy of the conda dev environment used to create the notebook. 
 
 Create a copy of the conda dev environment with `conda create --name myenv --file requirements.txt`
 
@@ -39,7 +40,7 @@ Then install the requirements with `conda install --name myenv --file requiremen
 
 ## Usage
 
-The Jupyter notebook []() will provide all steps of the data collection, preparation, and analysis. Data visualizations are shown inline and accompanying analysis responses are provided.
+The Jupyter notebook [crypto_investments.ipynb](/crypto_investments.ipynb) will provide all steps of the data collection, preparation, and analysis. Data visualizations are shown inline and accompanying analysis responses are provided.
 
 ---
 
