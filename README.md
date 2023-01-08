@@ -1,4 +1,4 @@
-# Module 10 Challenge - Clustering Cryptocurrencies 
+#  Clustering Cryptocurrencies - UW FinTech Bootcamp Module 10 Challenge
 
 In this project I apply the unsupervised learning technique of K-Means clustering to group cryptocurrencies by their performance in an effort to create profitable portfolio recommendations.
 
